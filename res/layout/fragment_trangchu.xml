@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".fragment.TrangchuFragment">
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#8CE5F1"-->
+<!--        android:layout_gravity="bottom">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+<!--            <ImageView-->
+<!--                android:layout_width="1dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:src="@drawable/support"/>-->
+<!--            <ImageView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:src="@drawable/travel"/>-->
+<!--            <ImageView-->
+<!--                android:layout_width="1dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:src="@drawable/news"/>-->
+<!--        </LinearLayout>-->
+
+<!--    </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+<!--    <androidx.drawerlayout.widget.DrawerLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+</LinearLayout>

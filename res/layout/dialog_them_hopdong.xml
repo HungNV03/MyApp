@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM HỢP ĐỒNG"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:gravity="center"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nhân viên :"
+        android:textSize="18dp"
+        android:textColor="#FFA011"
+        android:textStyle="bold"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnNhanvien"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="khách hàng :"
+        android:textSize="18dp"
+        android:textColor="#FFA011"
+        android:textStyle="bold"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnKhachhang"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dự án :"
+        android:textSize="18dp"
+        android:textColor="#FFA011"
+        android:textStyle="bold"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnDuan"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="số tiền :"
+        android:textSize="18dp"
+        android:textColor="#FFA011"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tiền hơp đồng"
+        android:id="@+id/edTien"/>
+
+
+</LinearLayout>
